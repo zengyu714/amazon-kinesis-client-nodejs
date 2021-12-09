@@ -4,8 +4,10 @@ updates:
     directory: "/"
     schedule: 
       interval: "daily"
+    target-branch: "upgrade"
     # Add assignees, reviewers
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
+    target-branch: "upgrade"

@@ -23,6 +23,7 @@
     "doc": "grunt jsdoc"
   },
   "dependencies": {
+    "aws-kcl": "^2.1.0",
     "commander": "~8.3.0",
     "xml-js": "^1.6.11"
   },

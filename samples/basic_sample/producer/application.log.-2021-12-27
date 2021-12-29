@@ -1,0 +1,29 @@
+2021-12-27T11:51:56.247 (PID: 51469) ERROR sampleProducer - Error creating stream: ExpiredTokenException: The security token included in the request is expired
+    at Request.extractError (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/protocol/json.js:52:27)
+    at Request.callListeners (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/sequential_executor.js:106:20)
+    at Request.emit (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/sequential_executor.js:78:10)
+    at Request.emit (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/request.js:686:14)
+    at Request.transition (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/request.js:688:12)
+    at Request.callListeners (/Volumes/workplace/kcl/amazon-kinesis-client-nodejs/node_modules/aws-sdk/lib/sequential_executor.js:116:18) {
+  code: 'ExpiredTokenException',
+  time: 2021-12-27T19:51:56.245Z,
+  requestId: 'f460c5ce-92fc-7d58-ae24-de5258d797b7',
+  statusCode: 400,
+  retryable: true
+}
+2021-12-27T11:52:30.148 (PID: 51522) INFO sampleProducer - kclnodejssample stream is already created. Re-using it.
+2021-12-27T11:52:30.585 (PID: 51522) INFO sampleProducer - Current status of the stream is ACTIVE.
+2021-12-27T11:52:32.019 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:32.070 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:32.071 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:32.071 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:32.072 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:32.073 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:32.313 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:32.865 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:33.031 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
+2021-12-27T11:52:33.046 (PID: 51522) INFO sampleProducer - Successfully sent data to Kinesis.
